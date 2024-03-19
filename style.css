@@ -1,0 +1,39 @@
+/* Styles for the main container */
+.main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Styles for the heading */
+h1 {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Styles for the image */
+#im {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+/* Styles for the buttons */
+input[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+/* Hover effect for buttons */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker Green */
+}
